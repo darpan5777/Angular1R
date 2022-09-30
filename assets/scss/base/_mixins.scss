@@ -1,0 +1,15 @@
+// Mixin For Position
+@mixin position($position, $top, $right, $bottom, $left) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+//Mixin For Badge
+@mixin status-color($value, $color) {
+  .status-#{$value} {
+    color: $color;
+    background-color: rgba($color, 0.12);
+  }
+}

@@ -1,0 +1,248 @@
+//Form: Add Interns, Mentors
+select {
+  &.form-control {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+}
+//date
+.date-input {
+  &::before {
+    content: attr(data-placeholder);
+    width: 100%;
+  }
+}
+.date-input {
+  &:focus {
+    &::before {
+      display: none;
+    }
+  }
+  &:valid {
+    &::before {
+      display: none;
+    }
+  }
+}
+// Form group margin
+.form-group {
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 1.5rem;
+  }
+}
+.custom-label {
+  color: $gray-semi-dark;
+  font-size: 14px;
+  font-weight: 400;
+  @include position(absolute, 8px, auto, auto, 20px);
+  padding: 0 2px;
+  background-color: $white;
+  transition: transform 100ms ease;
+  transform: translateY(-17px);
+}
+.custom-input,
+.custom-form-select {
+  font-size: 14px;
+  border: 1px solid $gray-medium;
+  position: relative;
+  color: $gray-semi-dark;
+}
+.custom-input {
+  &:invalid {
+    ~ .custom-label {
+      transform: translateY(0);
+    }
+  }
+}
+.custom-input {
+  &:valid {
+    ~ .custom-label {
+      font-size: 12px;
+      color: $black;
+    }
+  }
+}
+.custom-input {
+  &:focus {
+    ~ .custom-label {
+      color: $primary;
+      transform: translateY(-17px);
+      font-size: 12px;
+    }
+  }
+}
+.form-control {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.custom-password-icon {
+  padding: 0.29rem 0.75rem;
+  height: 35px;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  background-color: $gray-semi-light;
+  border: 1px solid $gray-medium;
+}
+.custom-password-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  &:focus {
+    ~ .custom-password-icon {
+      border-color: $primary;
+    }
+  }
+}
+.add-custom-icons {
+  @include position(absolute, 10px, 56px, auto, auto);
+}
+.add-custom-user-icons {
+  z-index: 0;
+  pointer-events: none;
+  @include position(absolute, 10px, 16px, auto, auto);
+}
+
+// status border for view leave request status
+.status-border {
+  border-right: 1px solid $gray-semi-light;
+  @include media-breakpoint-down(sm) {
+    border: none;
+  }
+}
+//Login Form
+.login-form-label {
+  font-size: 12px;
+  text-transform: capitalize;
+  @include position(absolute, 16px, auto, auto, 40px);
+  z-index: 22;
+  padding: 0 4px;
+  pointer-events: none;
+  background-color: $dark;
+  transition: transform 100ms ease;
+  transform: translateY(-22px);
+}
+
+.login-form-input {
+  font-size: 14px;
+  outline: none;
+  border: 2px solid $white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  position: relative;
+
+  &:invalid {
+    ~ .login-form-label {
+      transform: translateY(0);
+    }
+  }
+  &:valid {
+    ~ .login-form-label {
+      left: 16px;
+    }
+  }
+  &:focus {
+    border-color: $white;
+  }
+
+  &:focus {
+    ~ .login-form-label {
+      transform: translateY(-22px);
+      left: 16px;
+    }
+  }
+}
+
+.custom-box {
+  background-color: $dark;
+  color: $white;
+  padding: 30px 15px;
+  border-radius: 10px;
+  width: $custom-box-width;
+  @include media-breakpoint-down(sm) {
+    width: $custom-box-width-sm;
+  }
+}
+
+.login-img {
+  background: url("../../img/signin-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  .overlay-img {
+    background-color: rgba(60, 78, 96, 0.8);
+  }
+}
+.user-icon {
+  @include position(absolute, 16px, auto, auto, 4px);
+  z-index: 3;
+}
+.showpassword-icon {
+  @include position(absolute, 16px, 0, auto, auto);
+  z-index: 3;
+}
+.login-logo {
+  height: 40px;
+  width: 40px;
+}
+
+// ng-select design
+.ng-select .ng-select-container {
+  border: 1px solid $gray-medium;
+  &::after {
+    border-bottom: 0;
+  }
+}
+.ng-select {
+  padding-bottom: 0;
+  & .ng-select-container {
+    & .ng-value-container {
+      border-top: 0;
+    }
+  }
+}
+.ng-select.ng-select-multiple {
+  .ng-select-container {
+    .ng-value-container {
+      .ng-value {
+        margin: 5px 5px;
+        color: $gray-dark;
+        .ng-value-icon {
+          color: $gray-dark;
+        }
+      }
+      .ng-input {
+        padding: 0;
+      }
+    }
+  }
+  .ng-select-container.ng-has-value {
+    .ng-clear-wrapper {
+      border-top: 0;
+    }
+    .ng-arrow-wrapper {
+      border-top: 0;
+    }
+  }
+}
+.ng-select {
+  .ng-select-container {
+    .ng-value-container {
+      .ng-placeholder {
+        color: $gray-semi-dark;
+      }
+    }
+  }
+}
+.ng-select.ng-select-single {
+  .ng-select-container {
+    .ng-arrow-wrapper {
+      bottom: 5px;
+    }
+    .ng-clear-wrapper {
+      bottom: 3px;
+    }
+  }
+}

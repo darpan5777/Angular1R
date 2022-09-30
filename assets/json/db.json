@@ -1,0 +1,605 @@
+{
+  "master": [
+    {
+      "fullname": "Admin",
+      "email": "admin@gmail.com",
+      "password": "12345",
+      "id": 1,
+      "role": "admin"
+    },
+    {
+      "fullname": "Mentor",
+      "email": "mentor@gmail.com",
+      "password": "12345",
+      "id": 2,
+      "role": "mentor"
+    },
+    {
+      "fullname": "Intern",
+      "email": "intern@gmail.com",
+      "password": "12345",
+      "id": 3,
+      "role": "intern"
+    },
+    {
+      "fullname": "asdff",
+      "email": "ab@gmail.com",
+      "password": "12345",
+      "role": "mentor",
+      "id": 4
+    },
+    {
+      "fullname": "Vishal",
+      "email": "vishal@gmail.com",
+      "password": "12345",
+      "role": "mentor",
+      "id": 5
+    },
+    {
+      "fullname": "Hiren",
+      "email": "hiren@gmail.com",
+      "password": "12345",
+      "role": "mentor",
+      "id": 6
+    },
+    {
+      "fullname": "darshit",
+      "email": "d@gmail.com",
+      "password": "123456",
+      "role": "mentor",
+      "id": 7
+    },
+    {
+      "fullname": "test123",
+      "email": "test@1rivet.com",
+      "password": "test@123",
+      "role": "mentor",
+      "id": 8
+    },
+    {
+      "fullname": "Maya",
+      "email": "maya@gmail.com",
+      "password": "12345",
+      "role": "mentor",
+      "id": 9
+    },
+    {
+      "fullname": "test",
+      "email": "test@gmail.com",
+      "password": "12345",
+      "role": "mentor",
+      "id": 10
+    },
+    {
+      "fullName": "darpan",
+      "email": "darpan@gmail.com",
+      "password": "12345",
+      "id": 11
+    },
+    {
+      "fullName": "vishal ",
+      "email": "vishal@gmail.com",
+      "password": "1234",
+      "id": 12
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "ertawe",
+      "role": "mentor",
+      "id": 13
+    },
+    {
+      "fullname": "nidhi",
+      "email": "nidhi@gmail.com",
+      "password": "12345",
+      "role": "mentor",
+      "id": 14
+    }
+  ],
+  "mentor": [
+    {
+      "firstname": "Ankit",
+      "middlename": "Jayesh",
+      "lastname": "Prajapati",
+      "contactno": "7653214587",
+      "domain": "Operations",
+      "subdomain": "Quality Assurance",
+      "email": "ankit@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 1
+    },
+    {
+      "firstname": "Tom",
+      "middlename": "Mark",
+      "lastname": "Biden",
+      "contactno": "7653214587",
+      "domain": "Technology",
+      "subdomain": "Database",
+      "email": "tom@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "firstname": "Handry",
+      "middlename": "Mark",
+      "lastname": "Jonson",
+      "contactno": "765321457",
+      "domain": "Technology",
+      "subdomain": "Database",
+      "email": "handry@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 4,
+      "firstname": "Donald",
+      "middlename": "Mark",
+      "lastname": "Trump",
+      "contactno": "765321457",
+      "domain": "Technology",
+      "subdomain": "Angular",
+      "email": "donald@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 5,
+      "firstname": "Handry",
+      "middlename": "Mark",
+      "lastname": "Jonson",
+      "contactno": "765321457",
+      "domain": "Technology",
+      "subdomain": "Database",
+      "email": "handry@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 6,
+      "firstname": "Donald",
+      "middlename": "Mark",
+      "lastname": "Trump",
+      "contactno": "765321457",
+      "domain": "Technology",
+      "subdomain": "Angular",
+      "email": "donald@gmail.com",
+      "password": "12345"
+    },
+    {
+      "firstname": "Bhavik",
+      "middlename": "chandrakant",
+      "lastname": "gajdhar",
+      "contactno": "8745239614",
+      "domain": "Sales",
+      "subdomain": "Sales",
+      "email": "b@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 7
+    },
+    {
+      "firstname": "darpan",
+      "middlename": "satish",
+      "lastname": "parmar",
+      "contactno": "7896541230",
+      "domain": "Technology",
+      "subdomain": null,
+      "email": "d@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 8
+    },
+    {
+      "firstname": "Bhumit",
+      "middlename": "thakore",
+      "lastname": "parmat",
+      "contactno": "1234567890",
+      "domain": "Techonolgy",
+      "subdomain": "Angular",
+      "email": "b@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 9
+    },
+    {
+      "firstname": "mitul",
+      "middlename": "g",
+      "lastname": "patel",
+      "contactno": "1234567890",
+      "domain": "Techonolgy",
+      "subdomain": "Database",
+      "email": "m@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 10
+    },
+    {
+      "firstname": "Bhavik",
+      "middlename": "Chandrakant",
+      "lastname": "Gajdhar",
+      "contactno": "9904503997",
+      "domain": "Technology",
+      "subdomain": "Angular",
+      "email": "bhavik@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 11
+    },
+    {
+      "firstname": "asdff",
+      "middlename": "fgdfdh",
+      "lastname": "gjgfhjj",
+      "contactno": "1234567890",
+      "domain": "Technology",
+      "subdomain": "Machine Learning",
+      "email": "ab@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 12
+    },
+    {
+      "firstname": "Hiren",
+      "middlename": "d",
+      "lastname": "Tandel",
+      "contactno": "7896523014",
+      "domain": "Technology",
+      "subdomain": "Angular",
+      "email": "hiren@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 13
+    },
+    {
+      "firstname": "darshit",
+      "middlename": "m ",
+      "lastname": "patel",
+      "contactno": "1234567890",
+      "domain": "PMO",
+      "subdomain": "Business Analyst",
+      "email": "d@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 14
+    },
+    {
+      "firstname": "test123",
+      "middlename": "d",
+      "lastname": "d",
+      "contactno": "740-553-8582",
+      "domain": "PMO",
+      "subdomain": "Business Analyst",
+      "email": "test@1rivet.com",
+      "password": "test@123",
+      "confirmPassword": "test@123",
+      "id": 15
+    },
+    {
+      "firstname": "Maya",
+      "middlename": "john",
+      "lastname": "Fendandis",
+      "contactno": "985-214-7630",
+      "domain": "PMO",
+      "subdomain": "Business Analyst",
+      "email": "maya@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 16
+    },
+    {
+      "firstname": "test",
+      "middlename": "t",
+      "lastname": "t",
+      "contactno": "985-214-7036",
+      "domain": "PMO",
+      "subdomain": "Business Analyst",
+      "email": "test@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 17
+    },
+    {
+      "firstname": "Jash",
+      "middlename": "Middel",
+      "lastname": "Patel",
+      "contactno": "1236547890",
+      "domain": "PMO",
+      "subdomain": "Project Manager",
+      "email": "jash@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 13
+    },
+    {
+      "firstname": "dgfgfg",
+      "middlename": "gfgfg",
+      "lastname": "ggfgf",
+      "contactno": "4544558888",
+      "domain": "HR",
+      "subdomain": null,
+      "email": "a@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 14
+    },
+    {
+      "firstname": "jary",
+      "middlename": "fndf",
+      "lastname": "patel",
+      "contactno": "1236547890",
+      "domain": "Accounts",
+      "subdomain": null,
+      "email": "ab@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 15
+    },
+    {
+      "fullName": "darpan",
+      "email": "darpan@gmail.com",
+      "password": "12345",
+      "id": 18
+    },
+    {
+      "fullName": "vishal ",
+      "email": "vishal@gmail.com",
+      "password": "1234",
+      "id": 19
+    },
+    {
+      "firstname": "",
+      "middlename": "",
+      "lastname": "",
+      "contactno": "",
+      "domain": null,
+      "subdomain": null,
+      "email": "",
+      "password": "ertawe",
+      "confirmPassword": "ertwaew",
+      "id": 20
+    },
+    {
+      "firstname": "nidhi",
+      "middlename": "m",
+      "lastname": "shah",
+      "contactno": "969-696-96969",
+      "domain": "Technology",
+      "subdomain": "Database",
+      "email": "nidhi@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 21
+    }
+  ],
+  "leave": [
+    {
+      "id": 1,
+      "firstname": "Ankit",
+      "middlename": "Jayesh",
+      "lastname": "Prajapati",
+      "domain": "HR",
+      "subdomain": "",
+      "type": "first half",
+      "days": "0.8",
+      "fromdate": "23/05/2021",
+      "todate": "23/05/2021",
+      "ondate": "22/05/2021",
+      "description": "xys",
+      "status": "Accepted",
+      "isRevoked": null,
+      "leaveFlow": [
+        {
+          "mantorId": 1,
+          "adminId": 1,
+          "status": 1
+        },
+        {
+          "mantorId": null,
+          "adminId": 1,
+          "status": 2
+        },
+        {
+          "mantorId": null,
+          "adminId": null,
+          "status": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstname": "Vishal",
+      "middlename": "Harinath",
+      "lastname": "Dubey",
+      "domain": "Account",
+      "subdomain": "",
+      "type": "secound half",
+      "days": "0.5",
+      "fromdate": "23/05/2021",
+      "todate": "23/05/2021",
+      "ondate": "23/05/2021",
+      "description": "xys",
+      "status": "Rejected"
+    },
+    {
+      "id": 3,
+      "firstname": "Darpan",
+      "middlename": "Satish",
+      "lastname": "Parmar",
+      "domain": "Project Manager",
+      "subdomain": "",
+      "type": "first half",
+      "days": "0.7",
+      "fromdate": "23/05/2021",
+      "todate": "23/05/2021",
+      "ondate": "22/05/2021",
+      "description": "xys",
+      "status": "Rejected"
+    },
+    {
+      "id": 4,
+      "firstname": "Bhavik",
+      "middlename": "Chandrakant",
+      "lastname": "Gajdhar",
+      "domain": "Business Analyst",
+      "subdomain": "",
+      "type": "first half",
+      "days": "0.9",
+      "fromdate": "23/05/2021",
+      "todate": "23/05/2021",
+      "ondate": "22/05/2021",
+      "description": "xys",
+      "status": "Revoked"
+    }
+  ],
+  "status": [
+    {
+      "id": 1,
+      "status": " Partially Accepted "
+    },
+    {
+      "id": 2,
+      "status": "Partially Rejected "
+    },
+    {
+      "id": 3,
+      "status": "Accepted "
+    },
+    {
+      "id": 4,
+      "status": "Rejected  "
+    },
+    {
+      "id": 5,
+      "status": "Pending"
+    },
+    {
+      "id": 6,
+      "status": "Revoking"
+    },
+    {
+      "id": 7,
+      "status": "Partially Revoke "
+    },
+    {
+      "id": 8,
+      "status": " Revoked"
+    },
+    {
+      "id": 9,
+      "status": " Partially Revoke Rejected "
+    },
+    {
+      "id": 10,
+      "status": "Revoke Rejected "
+    }
+  ],
+  "intern": [
+    {
+      "id": 1,
+      "firstName": "darpan",
+      "middleName": "satiskumar",
+      "lastName": "parmar",
+      "contactNo": "9687177725",
+      "email": "darpan6777@gmail.com",
+      "domain": "Technolodgy",
+      "subDomain": "Angular"
+    },
+    {
+      "firstname": "Vishal",
+      "middlename": "chiman",
+      "lastname": "dubey",
+      "contactno": "1234567890",
+      "domain": "PMO",
+      "subdomain": "Business Analyst",
+      "email": "vishal@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 13
+    }
+  ],
+  "domainList": [
+    {
+      "id": 1,
+      "domain": "HR",
+      "subDomain": []
+    },
+    {
+      "id": 2,
+      "domain": "Accounts",
+      "subDomain": []
+    },
+    {
+      "id": 3,
+      "domain": "Operations",
+      "subDomain": []
+    },
+    {
+      "firstName": "jhon",
+      "middleName": "herry",
+      "lastName": "mark",
+      "contactNo": "9687155222",
+      "startDate": "2021-10-07",
+      "endDate": "2021-09-30",
+      "domain": "B",
+      "subDomain": "B",
+      "selectMentors": "A",
+      "email": "jhon@gmail.com",
+      "password": "12345",
+      "confirmPassword": "",
+      "id": 9
+    },
+    {
+      "firstName": "gdgfgf",
+      "middleName": "gfgfffg",
+      "lastName": "ffgffgf",
+      "contactNo": "7896541230",
+      "startDate": "2021-10-15",
+      "endDate": "2021-10-15",
+      "domain": "HR",
+      "subDomain": "",
+      "selectMentors": [
+        4
+      ],
+      "email": "a@gmail.com",
+      "password": "123654",
+      "confirmPassword": "123654",
+      "id": 10
+    },
+    {
+      "firstName": "ankit",
+      "middleName": "prajapati",
+      "lastName": "prajapati",
+      "contactNo": "9687177231",
+      "startDate": "2021-10-14",
+      "endDate": "2021-10-15",
+      "domain": "Technology",
+      "subDomain": "Machine Learning",
+      "selectMentors": "",
+      "email": "darpan@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "id": 11
+    },
+    {
+      "firstName": "vishal ",
+      "middleName": "dubey",
+      "lastName": "dubey",
+      "contactNo": "9685747122",
+      "startDate": [
+        null,
+        null
+      ],
+      "endDate": [
+        null,
+        null
+      ],
+      "domain": "",
+      "subDomain": "",
+      "selectMentors": "",
+      "email": "vishal@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 12
+    }
+  ]
+}

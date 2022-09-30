@@ -1,0 +1,118 @@
+// SCSS of Table List
+.table {
+  table-layout: fixed;
+  thead {
+    tr {
+      th {
+        border: 0;
+        padding: 24px 12px;
+      }
+    }
+  }
+  thead,
+  tbody {
+    tr {
+      td {
+        color: $gray-semi-dark;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+// Menter List,Intern List
+.table-wrapper {
+  .table {
+    thead,
+    tbody {
+      tr {
+        .name {
+          width: 170px;
+        }
+        .email {
+          width: 200px;
+        }
+        .domain,
+        .sub-domain,
+        .edit {
+          width: 130px;
+        }
+      }
+    }
+  }
+  .edit-mentor {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+// Leave List
+.leave-list {
+  .table {
+    thead,
+    tbody {
+      tr {
+        .application-date {
+          width: 175px;
+        }
+        .type {
+          width: 125px;
+        }
+        .days {
+          width: 52px;
+        }
+        .duration {
+          width: 200px;
+        }
+        .description {
+          width: 96px;
+        }
+        .status {
+          width: 150px;
+        }
+        .action {
+          width: 216px;
+        }
+      }
+    }
+  }
+}
+
+// Leave Application List
+.table-application {
+  .table {
+    thead,
+    tbody {
+      tr {
+        .applicant-name,
+        .sub-domain {
+          width: 175px;
+        }
+
+        .domain {
+          width: 125px;
+        }
+        .application-date {
+          width: 200px;
+        }
+        .days {
+          width: 96px;
+        }
+        .duration {
+          width: 230px;
+        }
+        .reason,
+        .status {
+          width: 160px;
+        }
+        .action {
+          width: 210px;
+        }
+      }
+    }
+  }
+}

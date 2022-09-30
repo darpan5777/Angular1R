@@ -1,0 +1,63 @@
+// Colors
+$gray-semi-light: #e9ecef;
+$gray-light: #ced4da;
+$gray-medium: #adb5bd;
+$gray-semi-dark: #6c757d;
+$gray-dark: #495057;
+$light: #f5f6fa;
+$white: #ffffff;
+
+// Theme Colors
+$primary: #086bdb;
+$secondary: #ebf1fc;
+$dark:#000;
+$danger:    #d90505;
+
+$warning:   #ffbe00;
+$success:   #11772d;
+$info-light:      #d4e6ee;
+$warning-light: lighten($warning, 40%);
+$primary-light: lighten($primary,20%);
+
+// Theme Map
+$theme-colors: ();
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "danger": $danger,
+    "warning": $warning,
+    "success": $success,
+    "info-light":$info-light,
+    "gray-light": $gray-light,
+    "gray-medium": $gray-medium,
+    "gray-semi-dark": $gray-semi-dark,
+    "gray-dark": $gray-dark,
+    "primary-light": $primary-light,
+    "warning-light": $warning-light,
+);
+
+// Status Map
+$status-color: (
+    "revoking" : $warning,
+    "pending" : $gray-light,
+    "accepted": $success,
+    "rejected" : $danger,
+);
+// Map for dashboard icons
+$home-icon-colors:(
+    "primary": $primary,
+    "warning": $warning,
+    "gray-dark": $gray-dark,
+    "success": $success,
+);
+
+// Each loop for cards.
+@each $color, $value in $home-icon-colors {
+    .icon-#{$color} {
+        color: $white;
+        background-color: $value;
+        &:hover{
+            background-color: lighten($value, 20%);
+        }
+    }
+}

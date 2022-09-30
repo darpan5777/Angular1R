@@ -1,0 +1,22 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+// Reset
+label{
+    cursor: pointer;
+}
+.overflow-vertical{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.overflow-horizontal{
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.cursor-pointer{
+    cursor: pointer;
+}

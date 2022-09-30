@@ -1,0 +1,10 @@
+//  Badge Status
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+}
+@each $color, $value in $status-color {
+  @include status-color($color, $value);
+}

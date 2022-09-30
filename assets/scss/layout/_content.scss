@@ -1,0 +1,63 @@
+// Mentor,Intern Search bar
+.search-bar {
+  width: 320px;
+  @include media-breakpoint-down(sm) {
+    font-size: 14px;
+    width: 180px;
+  }
+}
+#search {
+  outline: 0;
+
+  &::placeholder {
+    font-size: 14px;
+    color: $gray-semi-dark;
+  }
+}
+// Dashboard Design start
+.rounded-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  min-width: 56px;
+  min-height: 56px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-wrapper {
+  background-color: $white;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 24px;
+  height: 100%;
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+
+.home-wrapper {
+  height: 100%;
+  @include media-breakpoint-down(sm) {
+    height: auto;
+  }
+}
+// Dashboard Design end
+// View Revoking leave request Design start
+
+.revoking-data {
+  font-weight: 400;
+  color: $gray-dark;
+  padding-left: 8px;
+}
+.revoking-approval {
+  color: $gray-medium;
+  font-size: 20px;
+  padding-left: 8px;
+}
+// View Revoking leave request Design end
